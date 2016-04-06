@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="ContactBook.css">
+</head>
+<body>
+
+	<div id="wrapper">
+	
+		<div class="contactBook">
+			
+			<div class="menuText">
+
+				<h1 id="title">Contacts</h1>
+
+				<div id = "contacts">
+				</div>	
+			</div>
+			
+			<div class="contactText">
+
+				<div id="username"></div>
+				<div id="number"></div>
+				<div id="address"></div>		
+			</div>
+		</div>
+	
+		<div id="signUpForm">
+			<div id="signUpFormContents"	
+				<form>
+					<input class="signUpField" id="nameInput" placeholder="Name" />
+					<br/>
+					<input class="signUpField" id="numberInput" placeholder="Number" />
+					<br/>
+					<input class="signUpField" id="addressInput" placeholder="Address" />
+				</form>
+				<button id="submitButton" onclick="addToContacts()">Submit</button>
+			</div>
+		</div>
+		
+	</div>
+
+<script type="text/javascript" src="Users.js"></script>
+<script type="text/javascript" src="ContactBook.js"></script>
+
+</body>
+</html>
